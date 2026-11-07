@@ -1,5 +1,21 @@
 # PixelCSV — Image → RGB CSV Converter
 
+## Repository guide
+
+PixelCSV is a desktop image-to-data tool, built with **Python, PySide6 and Pillow**. It lets you inspect/transform an image and export its pixel data through the available CSV/JSON/binary exporters. It produces data for other workflows; it does not itself install a Minecraft mod or place blocks in a running world.
+
+Use a Python environment compatible with `requirements.txt`. A typical Windows source setup is:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe main.py
+```
+
+The UI lives under `pixelcsv/ui/`, the transformation/export pipeline under `pixelcsv/core/`, and settings/support code under `pixelcsv/config/`. Tests are in `tests/`. Generated artwork collections and old exported copies are not separate application dependencies.
+
+Check output dimensions, colour representation and the destination tool's CSV conventions before a large export. “RGB CSV” and “Minecraft block-name blueprint CSV” are different formats; use the consumer's documented format rather than assuming every CSV is interchangeable. The detailed export/extension guide follows.
+
 A clean, modern desktop utility that converts images into files where **every
 cell holds one pixel's exact `R,G,B` value**. It was built to feed a custom
 Minecraft *builder* mod that places blocks whose colour is set from the data —
@@ -175,3 +191,8 @@ exact same `PixelMatrix` → exporter path) without touching the image pipeline.
 ## License
 
 Provided as-is for use with your custom Minecraft builder mod.
+
+
+## Source snapshot and validation
+
+See [BACKUP_NOTES.md](BACKUP_NOTES.md) for the omitted build outputs, local settings, credentials and runtime data. Build generated binaries locally using the instructions above; a source checkout is not an installed application. Earlier validation figures in this guide describe their original development runs. This documentation update checks source references and instructions; it does not claim a fresh application, device or gameplay test.
