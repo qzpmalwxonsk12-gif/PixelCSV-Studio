@@ -18,3 +18,7 @@ This is a current working-file snapshot, not a copy of the original Git history.
 - `pixelcsv\core\exporters\__pycache__/`: generated, runtime, dependency, or local data directory
 - `pixelcsv\ui\__pycache__/`: generated, runtime, dependency, or local data directory
 - `pixelcsv\ui\widgets\__pycache__/`: generated, runtime, dependency, or local data directory
+
+
+## Final source/security review (2026-11-07)
+
