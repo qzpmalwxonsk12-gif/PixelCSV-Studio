@@ -1,4 +1,8 @@
-# Source backup
+# PixelCSV-Studio
+
+Python pixel-art CSV application and supporting conversion tools.
+
+
 
 Private source snapshot prepared on 2026-11-07. Original local files were not changed.
 
