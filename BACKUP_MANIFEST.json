@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-07",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 262,
+      "sha256": "47b882ae0e758eb082af0bdfa20c24ff7697fabfbce70a1c6781ce8c47f5a0f0"
+    },
+    {
+      "path": "main.py",
+      "size": 200,
+      "sha256": "a96db26b1b9a3e3339ac0f98187f1a48fc80cbff124b4dc30249d4e54ac5b6e6"
+    },
+    {
+      "path": "README.md",
+      "size": 6117,
+      "sha256": "25d4d851ad0918be02279bd652d5ca98426d2e6d6b005c1c1f72c34902c9bac9"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62,
+      "sha256": "099ca0aadbfaf018a8aa87181d323601920c5399651c67954ccb7c2109a12aab"
+    },
+    {
+      "path": "pixelcsv/app.py",
+      "size": 787,
+      "sha256": "e2e30c946c530d796e4d2d60379a036ca74477652ccd8ae66b3048a74ecab939"
+    },
+    {
+      "path": "pixelcsv/utils.py",
+      "size": 963,
+      "sha256": "63ba13e81a9328aab8b24b5c54c09abd394955a46f363b7d11f3259555f470b8"
+    },
+    {
+      "path": "pixelcsv/__init__.py",
+      "size": 821,
+      "sha256": "4bd1512bd88ae50d187511e890ae39d4af3aed180655553d191398b52b418a61"
+    },
+    {
+      "path": "pixelcsv/config/settings.py",
+      "size": 4192,
+      "sha256": "9975cba9be563c889591da41acd904c1c14f8f91135cb64843d0827bb8357bae"
+    },
+    {
+      "path": "pixelcsv/config/__init__.py",
+      "size": 137,
+      "sha256": "3bb0de5318ad07f6083f837b2a50f36ac866c693d746cf4e64fd5ee60116f7f8"
+    },
+    {
+      "path": "pixelcsv/core/exceptions.py",
+      "size": 945,
+      "sha256": "aa8180aabeb9705d16d387816994ecac12f6cc40f4af547f86d666900f1108c3"
+    },
+    {
+      "path": "pixelcsv/core/image_loader.py",
+      "size": 4112,
+      "sha256": "a2fc07af4c83eb0395408d392c26a5f2b43150b181eaf922870562f285cb4a89"
+    },
+    {
+      "path": "pixelcsv/core/image_processor.py",
+      "size": 3532,
+      "sha256": "0c1b24b4f46c1109f3f07f95bf4536f366a6a587203848b6f0a37c410e86e2fd"
+    },
+    {
+      "path": "pixelcsv/core/models.py",
+      "size": 4531,
+      "sha256": "6e23bdc562583d0c8ee79fd89e996cc806f4a39643e2c64cba3744b5a8b6d6c4"
+    },
+    {
+      "path": "pixelcsv/core/__init__.py",
+      "size": 317,
+      "sha256": "2e996898d34c2429d0bc26788b0a368a57599af762f85cfd8fd22b7901bc7ab6"
+    },
+    {
+      "path": "pixelcsv/core/exporters/base.py",
+      "size": 1965,
+      "sha256": "2be9f84ad8cc11296bdf7c0083d42c7d1229db1bf62195a1f3f78fc9d2e92033"
+    },
+    {
+      "path": "pixelcsv/core/exporters/binary_exporter.py",
+      "size": 2246,
+      "sha256": "8b5f9d89951d1279b95ebbd14b4baadd3577df04e01ad572a3fc98aebc9c992b"
+    },
+    {
+      "path": "pixelcsv/core/exporters/csv_exporter.py",
+      "size": 3331,
+      "sha256": "b1a737ac6e3d442afeb0b8da06bd11b54416cf93357801d7be5d57a5ca696d8b"
+    },
+    {
+      "path": "pixelcsv/core/exporters/json_exporter.py",
+      "size": 2107,
+      "sha256": "5d49c6bf73996d7cc9a7a10894bf13075efd11ed75008f6d3f3c43bcefa54c86"
+    },
+    {
+      "path": "pixelcsv/core/exporters/registry.py",
+      "size": 1877,
+      "sha256": "0206715675590d88d390a92d9debfe5091ba92e1f296b1a613e326f1c9330fae"
+    },
+    {
+      "path": "pixelcsv/core/exporters/__init__.py",
+      "size": 1080,
+      "sha256": "47a3f1752832bb6da217c9c917c2b595a6d22a731088ca9e8b2e8e593f21a780"
+    },
+    {
+      "path": "pixelcsv/ui/image_utils.py",
+      "size": 1115,
+      "sha256": "2a0a66271b5d597baa29d55c19e8c9776a86daf90310e0a02fa4fea83b917f78"
+    },
+    {
+      "path": "pixelcsv/ui/main_window.py",
+      "size": 26242,
+      "sha256": "18ec162241f39bd4ca60327839e37e91e76ce921a21ee478ff18abd1206e8301"
+    },
+    {
+      "path": "pixelcsv/ui/theme.py",
+      "size": 5543,
+      "sha256": "804b0fe8ed8b5b9dabbccb31ed8b2370642aae1d0921f0f545c5feccbf6eb2f6"
+    },
+    {
+      "path": "pixelcsv/ui/worker.py",
+      "size": 3373,
+      "sha256": "4b2020040bbfcec2f1ca1a77d86da3c99f1f66cbf54b85e1e082893184f8065f"
+    },
+    {
+      "path": "pixelcsv/ui/__init__.py",
+      "size": 335,
+      "sha256": "1fba60e8b3516e0878601a08befaaa8cedd06b59cbe2338c94ad080a2f794e38"
+    },
+    {
+      "path": "pixelcsv/ui/widgets/preview.py",
+      "size": 4161,
+      "sha256": "4c6608e1c23d0986ec0b15e04b014733fbe0f80cb3093714a4e568775666c9a8"
+    },
+    {
+      "path": "pixelcsv/ui/widgets/__init__.py",
+      "size": 178,
+      "sha256": "fcbbb9c8eb39e71d6236db1b2d8015848be4a0fd0651841e4e6b696bb6419b07"
+    },
+    {
+      "path": "tests/test_core_pipeline.py",
+      "size": 2960,
+      "sha256": "7232e6006867942326924ccb9ff3405adbd31a4d9526afd8cbd4ec40bb564090"
+    }
+  ]
+}
